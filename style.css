@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h1, h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#top {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: hsl(193, 100%, 96%);
+    background-image: url('./Huddle-landing-page-Design/images/bg-hero-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-inside {
+    width: 90%;
+    height: auto;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+
+#logo {
+    width: 15%;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#try-it {
+    background-color: white;
+    width: 15%;
+    border-radius: 2em;
+    border: none;
+    box-shadow: 0 0 0.5em 0.1em #ddd;
+    font-family: inherit;
+    font-weight: 700;
+}
+
+#top-stuff {
+    display: flex;
+    justify-content: space-between;
+}
+
+#top-txt {
+    width: 47%;
+}
+
+#top-txt h1 {
+    max-width: 70%;
+}
+
+#top-txt p {
+    font-size: 0.75em;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 70%;
+    font-weight: 500;
+}
+
+#gt-started {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 25%;
+    border-radius: 2em;
+    border: none;
+    box-shadow: 0 0 0.2em 0.05em #999;
+    font-family: inherit;
+    font-size: 0.55em;
+    font-weight: 600;
+    height: 3.5em;
+}
+
+#top-img {
+    width: 47%;
+    height: 100%;
+}
+
+#top-img img {
+    width: 100%;
+}
+
+#mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5em;
+    margin-bottom: 5.5em;
+}
+
+.trio {
+    width: 90%;
+    height: 17em;
+    display: flex;
+    margin-top: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 0.4em 0.4px #eee;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desc {
+    width: 47%;
+}
+
+.desc p {
+    font-size: 00.7em;
+    max-width: 60%;
+    color: #999;
+}
+
+#flow-right {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+}
+
+.images {
+    width: 23.5%;
+}
+
+.images img{
+    width: 100%;
+    height: auto;
+}
+
+#lap {
+    margin-bottom: -4em;
+    background-color: white;
+    width: 45%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 0.2em 0.2px hsl(192, 100%, 40%);
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+    z-index: 1;
+}
+
+#lap-button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 25%;
+    border-radius: 2em;
+    border: none;
+    box-shadow: 0 0 0.2em 0.05em #999;
+    font-family: inherit;
+    font-size: 0.55em;
+    font-weight: 600;
+    height: 3.5em;
+}
+
+footer {
+    width: 100%;
+    background-color: hsl(192, 100%, 9%);
+    font-size: 0.65em;
+    font-weight: 400;
+    color: white;
+    z-index: 0;
+}
+
+#ft-container {
+    margin-top: 12em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ft-logo-div {
+    width: 80%;
+}
+
+#foot-logo {
+    width: 15%;
+}
+
+#footer-things {
+    height: 40%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    font-weight: 400;
+    margin-top: 2.5em;
+}
+
+#contact {
+    width: 30%;
+}
+
+.contact {
+    display: flex;
+    align-items:unset;
+}
+
+.contact p {
+    margin-left: 1.5em;
+    margin-top: 0;
+    font-size: 0.8em;
+    max-width: 80%;
+    font-weight: 400;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+}
+
+#rights-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+#copyright {
+    width: 80%;
+    text-align: right;
+    font-size: 0.7em;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+#social {
+    display: flex;
+}
+
+i {
+    margin-left: 1.5em;
+    font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+    #top {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: initial;
+            background-color: hsl(193, 100%, 96%);
+            background-image: url('./Huddle-landing-page-Design/images/bg-hero-mobile.svg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+    }
+
+    #top-inside {
+        margin-top: 2em;
+    }
+
+    #head {
+        align-items: center;
+    }
+
+    #logo {
+        width: 30%;
+    }
+
+    #try-it {
+        width: 30%;
+        height: 2em;
+    }
+
+    #top-stuff {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #top-txt {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #top-txt h1 {
+        max-width: 90%;
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    #top-txt p {
+        max-width: 90%;
+        text-align: center;
+        font-size: 0.9em;
+        margin-bottom: 3em;
+    }
+
+    #gt-started {
+        width: 70%;
+        margin-bottom: 3.5em;
+    }
+
+    #top-img {
+        width: 100%;
+        margin-top: 3em;
+    }
+
+    #mid {
+        margin-top: 1em;
+    }
+
+    .trio {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2em;
+        border-radius: 10px;
+        box-shadow: 0 0 0.4em 0.4px #eee;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .desc {
+        width: 90%;
+        text-align: center;
+    }
+
+    .desc p {
+        font-size: 00.7em;
+        max-width: 100%;
+        color: #999;
+        margin-bottom: 2em;
+    }
+
+    .images {
+        width: 80%;
+        margin-top: 2em;
+    }
+
+    .images img {
+        width: 100%;
+        height: auto;
+    }
+
+    #flow-right {
+        text-align: center;
+        align-items: center;
+    }
+
+    #reverse {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #lap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        text-align: center;
+        font-size: 0.9em;        
+    }
+
+    #lap-button {
+        width: 45%;
+        margin-bottom: 2em;
+    }
+
+    #footer-things {
+        flex-direction: column;
+        font-size: 1.3em;
+        width: 90%;
+    }
+
+    #ft-logo-div {
+        width: 90%;
+    }
+
+    #foot-logo {
+        width: 45%;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    #social {
+        justify-content: center;
+    }
+
+    #contact {
+        width: 100%;
+        margin-bottom: 3em;
+    }
+
+    #copyright {
+        text-align: center;
+        margin-top: 3em;
+        font-size: 0.8em;
+    }
+}
