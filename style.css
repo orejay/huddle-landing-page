@@ -14,11 +14,6 @@ body {
     font-weight: 400;
 }
 
-input:hover {
-    cursor: pointer;
-    box-shadow: 0 0.1em 0.5em 0.1em #ddd;
-}
-
 h1, h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -74,6 +69,11 @@ h1, h2 {
     font-weight: 700;
 }
 
+#try-it:hover {
+    cursor: pointer;
+    box-shadow: 0 0.1em 0.5em 0.1em #ccc;
+}
+
 #top-stuff {
     display: flex;
     justify-content: space-between;
@@ -105,6 +105,11 @@ h1, h2 {
     font-size: 0.55em;
     font-weight: 600;
     height: 3.5em;
+}
+
+#gt-started:hover {
+    cursor: pointer;
+    box-shadow: 0 0.1em 0.5em 0.1em #ccc;
 }
 
 #top-img {
@@ -187,6 +192,11 @@ h1, h2 {
     font-size: 0.55em;
     font-weight: 600;
     height: 3.5em;
+}
+
+#lap-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.1em 0.5em 0.1em #ccc;
 }
 
 footer {
