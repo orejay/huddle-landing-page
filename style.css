@@ -14,6 +14,11 @@ body {
     font-weight: 400;
 }
 
+input:hover {
+    cursor: pointer;
+    box-shadow: 0 0.1em 0.5em 0.1em #ddd;
+}
+
 h1, h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
