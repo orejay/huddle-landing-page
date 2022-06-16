@@ -277,7 +277,7 @@ i {
 
 @media (max-width: 768px) {
     #top {
-            height: 100vh;
+            height: auto;
             width: 100%;
             display: flex;
             align-items: initial;
@@ -301,7 +301,8 @@ i {
 
     #try-it {
         width: 30%;
-        height: 2em;
+        height: 2.5em;
+        color: black;
     }
 
     #top-stuff {
